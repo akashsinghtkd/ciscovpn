@@ -1,0 +1,20 @@
+myuser@ubuntu:~$ mkdir ciscovpn
+myuser@ubuntu:~$ cd ciscovpn
+myuser@ubuntu:~$ curl -O https://cdn.auckland.ac.nz/assets/auckland/students/academic-information/postgraduate-students/Postgraduate%20support%20and%20services/anyconnect-linux64-4.6.01098-predeploy-k9.tar.gz
+myuser@ubuntu:~/ciscovpn$ tar zxf anyconnect-linux64-4.6.01098-predeploy-k9.tar.gz
+myuser@ubuntu:~/ciscovpn$ cd anyconnect-linux64-4.6.01098/vpn
+myuser@ubuntu:~/ciscovpn/anyconnect-linux64-4.6.01098/vpn$ sudo ./vpn_install.sh
+[sudo] password for myuser:
+Installing Cisco AnyConnect Secure Mobility Client...
+Supplemental End User License Agreement for AnyConnect(R) Secure Mobility Client v4.x and other VPN-related Software
+
+[licence agreement omitted for brevity]
+Please refer to the Cisco Systems, Inc. End User License Agreement.
+http://www.cisco.com/en/US/docs/general/warranty/English/EU1KEN_.html
+
+Do you accept the terms in the license agreement? [y/n] y
+You have accepted the license agreement.
+Please wait while Cisco AnyConnect Secure Mobility Client is being installed...
+Starting Cisco AnyConnect Secure Mobility Client Agent...
+Done!
+myuser@ubuntu:~/ciscovpn/anyconnect-linux64-4.6.01098/vpn$
